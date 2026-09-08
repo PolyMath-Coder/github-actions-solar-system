@@ -16,4 +16,4 @@ EXPOSE 3000
 
 CMD [ "npm", "start" ]
 
-# ENV MONGO_URI=mongodb+srv://admin:3p4cO3tq6DfBdodF@jamajamadb.5cue4.mongodb.net/jama-dev.
+# ENV MONGO_URI=mongodb+srv://admin:3p4cO3tq6DfBdodF@jamajamadb.5cue4.mongodb.net/jama-dev
