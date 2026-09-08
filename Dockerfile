@@ -8,10 +8,12 @@ RUN npm install
 
 COPY . .
 
-ENV MONGO_URI=uriPlaceholder
-ENV MONGO_USERNAME=usernamePlaceholder
-ENV MONGO_PASSWORD=passwordPlaceholder
+ENV MONGO_URI=jamajamadb.5cue4.mongodb.net
+ENV MONGO_USERNAME=admin
+ENV MONGO_PASSWORD=3p4cO3tq6DfBdodF
 
 EXPOSE 3000
 
 CMD [ "npm", "start" ]
+
+# ENV MONGO_URI=mongodb+srv://admin:3p4cO3tq6DfBdodF@jamajamadb.5cue4.mongodb.net/jama-dev
